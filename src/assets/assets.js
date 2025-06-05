@@ -1,10 +1,10 @@
-import offshore from "./offshore.png";
-import pipeline from "./pipeline.webp";
-import steel from "./steel.png";
-import subsea from "./subsea.png";
-import engineer from "./engineer.png";
-import pressure from "./pressure-vessel.png";
-import marine from "./marine-support.png";
+import offshore from "./offshore.webp";
+
+import steel from "./steel.webp";
+import subsea from "./subsea.webp";
+import engineer from "./engineer.webp";
+import pressure from "./pressure-vessel.webp";
+import marine from "./marine-support.webp";
 
 export const cobelCards = [
   {

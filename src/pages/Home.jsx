@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import ImageSlider from "../components/ImageSlider";
-import slide3 from "../assets/cobol3.png";
-import slide4 from "../assets/cobol4.png";
-import slide5 from "../assets/cobol5.png";
+import slide3 from "../assets/cobol3.webp";
+import slide4 from "../assets/cobol4.webp";
+import slide5 from "../assets/cobol5.webp";
 import ServiceCard from "../components/ServiceCard";
 import { cobelCards } from "../assets/assets";
 import ImageCard from "../components/ImageCard";
-import project from "../assets/epic-projects.png";
-import construction from "../assets/construction.png";
+import project from "../assets/epic-projects.webp";
+import construction from "../assets/construction.webp";
 import shutdown from "../assets/shutdown.png";
-import calloff from "../assets/calloff.png";
-import hse from "../assets/hse.png";
-import marine from "../assets/marine.png";
-import engineer from "../assets/engineer-icon.png";
-import staffing from "../assets/man-power.png";
+import calloff from "../assets/calloff.webp";
+import hse from "../assets/hse.webp";
+import marine from "../assets/marine.webp";
+import engineer from "../assets/engineer-icon.webp";
+import staffing from "../assets/man-power.webp";
 
 import Footer from "../components/Footer";
 
@@ -40,7 +40,7 @@ const Cobel = () => {
     // },
     {
       image: engineer,
-      title: "Engineering and Design Services ",
+      title: "Engineering & Design ",
       link: "/engineering",
     },
     {
@@ -92,7 +92,7 @@ const Cobel = () => {
       </div>
       <section className="my-10" id="services">
         <section className=" ">
-          <h2 className="text-4xl text-center font-thin p-9">OUR BUSINESS</h2>
+          <h2 className="text-4xl text-center font-thin p-9">OUR SERVICES</h2>
           <div className="flex gap-9 justify-center flex-wrap flex-row ">
             {cobelserve.map((card) => (
               <Link to={card.link}>

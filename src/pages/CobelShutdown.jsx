@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import slide4 from "../assets/slide4.jpg";
-import offshore from "../assets/offshore.png";
+import slide4 from "../assets/slide4.webp";
+import offshore from "../assets/offshore.webp";
 import CobelProjectCard from "../components/CobelProjectCard";
 
 const CobelShutdown = () => {

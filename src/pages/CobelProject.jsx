@@ -1,11 +1,9 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import slide4 from "../assets/slide4.jpg";
-import pipeline from "../assets/pipeline.webp";
-import offshore from "../assets/offshore.png";
+import slide4 from "../assets/slide4.webp";
+import offshore from "../assets/offshore.webp";
 import CobelProjectCard from "../components/CobelProjectCard";
-import green3 from "../assets/green3.jpg";
 
 const CobelProject = () => {
   const content = [
@@ -16,15 +14,9 @@ const CobelProject = () => {
       article:
         " We  provides Offshore and Onshore construction services to major contractors and IOC's from the fabrication of: • Jackets • Flare booms • Helidecks • Riser protectors for FPSO's • Structural decks. Living quarters To the pre fabrication of: • Piping spools • Structural supports for onshore development • Pig launchers ",
     },
+
     {
-      image: pipeline,
-      title: "Cross Country Pipeline",
-      progress: 70,
-      article:
-        "Our Cross-Country Pipeline portfolio consists of long-term contract for installation of new pipeline of varying sizes from 6” to 30” and flow medium involving Engineering, Procurement, Installation and commissioning works. We meticulously handle associated dewatering, lagoon building and related Environmental requirements. We give special focus on the specific external/internal coatings, downhill/uphill/dolly mix welding processes, lowering, Pipeline Pre-commissioning/commissioning works including the Base Line Survey works. We anticipate the risk of existing pipeline crossings, road crossings and fenced third party property crossings and initiate required early actions/approvals as required to meet the tight pipeline project schedules. Our work covers all disciplines not limited to Civil, Mechanical, Piping, Electrical, Instrumentation, Communication, Control System and Loss Prevention. ",
-    },
-    {
-      image: green3,
+      image: offshore,
       title: "Brownfield and Greenfield",
       progress: 70,
       article:
