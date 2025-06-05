@@ -3,15 +3,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Import your pages
 import Thankyou from "./pages/Thankyou.jsx";
-import Cobel from "./pages/Cobel.jsx";
+import Home from "./pages/Home.jsx";
 import CobelProject from "./pages/CobelProject.jsx";
 import CobelCallOff from "./pages/CobelCallOff.jsx";
-import CobelConstruction from "./pages/CobelConstruction.jsx";
+import Construction from "./pages/Construction.jsx";
 import CobelShutdown from "./pages/CobelShutdown.jsx";
 import CobelHse from "./pages/CobelHse.jsx";
 
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import Engineering from "./pages/Engineering.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,9 +22,13 @@ const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <Cobel />,
+    element: <Home />,
   },
 
+  {
+    path: "/engineering",
+    element: <Engineering />,
+  },
   {
     path: "/project",
     element: <CobelProject />,
@@ -34,7 +39,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/construction",
-    element: <CobelConstruction />,
+    element: <Construction />,
   },
   {
     path: "/shutdown",

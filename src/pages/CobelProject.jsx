@@ -39,7 +39,7 @@ const CobelProject = () => {
         <img src={slide4} alt="" className="h-90 w-screen" />
         <h1 className="text-black text-center font-mono text-3xl py-6 flex flex-row justify-center">
           <a
-            href="/cobel"
+            href="/"
             className="text-black p-1 text-sm mr-5 bg-blue-300 border-3 border-blue-500 cursor-pointer "
           >
             ⇦back

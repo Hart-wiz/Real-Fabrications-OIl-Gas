@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import slide4 from "../assets/slide4.jpg";
 import offshore from "../assets/offshore.png";
 import CobelProjectCard from "../components/CobelProjectCard";
+import OtherNav from "../components/OtherNav";
 
 const CobelCallOff = () => {
   const content = [
@@ -18,12 +19,12 @@ const CobelCallOff = () => {
 
   return (
     <div>
-      <Nav />
+      <OtherNav />
       <main>
         <img src={slide4} alt="" className="h-90 w-screen" />
         <h1 className="text-black text-center font-mono text-3xl py-6 flex flex-row justify-center">
           <a
-            href="/cobel"
+            href="/"
             className="text-black p-1 text-sm mr-5 bg-blue-300 border-3 border-blue-500 cursor-pointer "
           >
             ⇦back

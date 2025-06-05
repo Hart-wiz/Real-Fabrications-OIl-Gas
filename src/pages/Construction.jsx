@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import slide4 from "../assets/slide4.jpg";
 import offshore from "../assets/offshore.png";
 import CobelProjectCard from "../components/CobelProjectCard";
+import OtherNav from "../components/OtherNav";
 
 const CobelConstruction = () => {
   const content = [
@@ -18,16 +19,10 @@ const CobelConstruction = () => {
 
   return (
     <div>
-      <Nav />
+      <OtherNav />
       <main>
         <img src={slide4} alt="" className="h-90 w-screen" />
         <h1 className="text-black text-center font-mono text-wrap text-3xl py-6 flex flex-row justify-center">
-          <a
-            href="/cobel"
-            className="text-black p-1 text-sm mr-5 bg-blue-300 border-3 border-blue-500 cursor-pointer  max-md:mr-0 "
-          >
-            ⇦back
-          </a>
           FABRICATIONS & CONSTRUCTION
         </h1>
 
@@ -47,24 +42,52 @@ const CobelConstruction = () => {
               not limited to the following –
             </h2>
             <ul className=" list-disc list-inside max:md:px-4 ">
-              <li>All types of Oil and Gas plant modifications</li>
-              <li>Mechanical rotating & static equipment installation</li>
-              <li>Shutdown works</li>
-              <li>Piping welding and installation</li>
-              <li>Pipelines installation</li>
-              <li>
-                All civil works including buildings, roads, foundations, etc.
-              </li>
-              <li>Electrical equipment installation</li>
-              <li>Electrical wiring and termination</li>
-              <li>
-                Instrumentation & control equipment installation including
-                wiring and termination
-              </li>
-              <li>Telecommunication equipment installation</li>
-              <li>Offshore and onshore heavy lifting</li>
-              <li>Critical activities execution such as hot taps</li>
-              <li>Pre-commissioning and commissioning support</li>
+              <ul>
+                <li>Offshore and onshore fabrication</li>
+                <li>Subsea structures</li>
+                <li>Production of pressure vessels</li>
+                <li>Offshore support services</li>
+
+                <li>
+                  <strong>Offshore and Onshore Fabrication:</strong>
+                  <ul>
+                    <li>Jackets</li>
+                    <li>Flare booms</li>
+                    <li>Helidecks</li>
+                    <li>Riser protectors for FPSOs</li>
+                    <li>Structural decks</li>
+                    <li>Living quarters</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <strong>Prefabrication:</strong>
+                  <ul>
+                    <li>Piping spools</li>
+                    <li>Structural supports for onshore development</li>
+                    <li>Pig launchers</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <strong>Welding Capabilities:</strong>
+                  <ul>
+                    <li>SMAW</li>
+                    <li>Orbital welding</li>
+                    <li>TIG welding</li>
+                    <li>SAW</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <strong>Subsea Structures:</strong>
+                  <ul>
+                    <li>Suction piles</li>
+                    <li>Water injection systems</li>
+                    <li>Production and gas manifolds</li>
+                  </ul>
+                </li>
+              </ul>
             </ul>
           </div>
         </section>

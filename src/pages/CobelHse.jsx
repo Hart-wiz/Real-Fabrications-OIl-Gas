@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import slide4 from "../assets/slide4.jpg";
 import offshore from "../assets/offshore.png";
 import CobelProjectCard from "../components/CobelProjectCard";
+import OtherNav from "../components/OtherNav";
 
 const CobelHse = () => {
   const content = [
@@ -12,23 +13,17 @@ const CobelHse = () => {
       title: "Health, Safety, and Environment Management",
       progress: 95,
       article:
-        " COBEL Oil & Gas is committed to having an incident free workplace, providing safe environment to those involved in or affected by our activities. Effective health, safety and environmental leadership is essential in everything that we do. In all our activities we are actively committed to stringent health and safety standards./n Protecting the environment is a high priority for us. We take a precautionary approach, identifying and assessing the potential risks and impacts of our operations on the world around us, at all stages of a project.",
+        " Real Fabrications Oil & Gas is committed to maintaining an incident-free workplace and providing a safe environment for everyone involved in or affected by our operations. We believe that effective health, safety, and environmental (HSE) leadership is essential to everything we do, and we uphold the highest standards across all areas of our work. Protecting the environment is a core priority for us. We take a precautionary approach by identifying and assessing potential risks and impacts at every stage of our projects—ensuring our operations remain responsible, safe, and sustainable.",
     },
   ];
 
   return (
     <div>
-      <Nav />
+      <OtherNav />
       <main>
         <img src={slide4} alt="" className="h-90 w-screen" />
         <h1 className="text-black text-center font-mono text-3xl py-6 flex flex-row justify-center">
-          <a
-            href="/cobel"
-            className="text-black p-1 text-sm mr-5 bg-blue-300 border-3 border-blue-500 cursor-pointer "
-          >
-            ⇦back
-          </a>
-          HSE
+          Trading in Oilfield Products & HSE
         </h1>
 
         <section className="flex gap-1 m-9 flex-col max-md:m-0">

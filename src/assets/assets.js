@@ -6,8 +6,6 @@ import engineer from "./engineer.png";
 import pressure from "./pressure-vessel.png";
 import marine from "./marine-support.png";
 
-import green from "./green.jpg";
-
 export const cobelCards = [
   {
     image: offshore,

@@ -13,7 +13,10 @@ import construction from "../assets/construction.png";
 import shutdown from "../assets/shutdown.png";
 import calloff from "../assets/calloff.png";
 import hse from "../assets/hse.png";
-import warning from "../assets/warning.jpg";
+import marine from "../assets/marine.png";
+import engineer from "../assets/engineer-icon.png";
+import staffing from "../assets/man-power.png";
+
 import Footer from "../components/Footer";
 
 const Cobel = () => {
@@ -25,29 +28,44 @@ const Cobel = () => {
   ];
 
   const cobelserve = [
+    // {
+    //   image: project,
+    //   title: "Epic Projects",
+    //   link: "/project",
+    // },
+    // {
+    //   image: calloff,
+    //   title: "Call Off Services",
+    //   link: "/calloff",
+    // },
     {
-      image: project,
-      title: "Epic Projects",
-      link: "/project",
-    },
-    {
-      image: calloff,
-      title: "Call Off Services",
-      link: "/calloff",
+      image: engineer,
+      title: "Engineering and Design Services ",
+      link: "/engineering",
     },
     {
       image: construction,
       title: " Fabrication & Construction",
       link: "/construction",
     },
+    // {
+    //   image: shutdown,
+    //   title: "shutdown Projects",
+    //   link: "/shutdown",
+    // },
     {
-      image: shutdown,
-      title: "shutdown Projects",
-      link: "/shutdown",
+      image: marine,
+      title: "Marine & Offshore Logistics ",
+      link: "/hse",
+    },
+    {
+      image: staffing,
+      title: " Manpower Provision ",
+      link: "/hse",
     },
     {
       image: hse,
-      title: "HSE",
+      title: "Trading in Oilfield Products & HSE",
       link: "/hse",
     },
   ];
