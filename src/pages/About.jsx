@@ -8,7 +8,7 @@ import OtherNav from "../components/OtherNav";
 const About = () => {
   return (
     <div>
-      <OtherNav />
+      <OtherNav companyName="OIL & GAS" />
       <main className="text-blue-950 flex justify-between   text-sm px-30 py-30 max-md:flex-col max-md:items-center">
         <section className="w-[400px] mx-10 space-y-4 max-md:w-[300px] max-md:mx-0">
           <div className="w-[400px]  space-y-7 max-md:w-[300px]">

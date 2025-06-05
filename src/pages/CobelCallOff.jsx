@@ -19,7 +19,7 @@ const CobelCallOff = () => {
 
   return (
     <div>
-      <OtherNav />
+      <OtherNav companyName="OIL & GAS" />
       <main>
         <img src={slide4} alt="" className="h-90 w-screen" />
         <h1 className="text-black text-center font-mono text-3xl py-6 flex flex-row justify-center">
