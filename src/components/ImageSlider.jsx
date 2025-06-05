@@ -32,10 +32,10 @@ const ImageSlider = ({ images, article, title }) => {
       {/* Article text overlay */}
       {article && (
         <div className="absolute inset-0 flex items-center justify-center text-center bg-black/60 text-white rounded-md max-w-screen mx-auto gap-9">
-          <h2 className="font-extrabold text-4xl md:text-6xl">
+          <h2 className="font-extrabold text-4xl md:text-6xl max-md:text-4xl">
             REAL FABRICATIONS
             <p className="text-2xl"> OIL & GAS</p>
-            <p className=" text-sm px-70 text-center">
+            <p className=" text-sm px-70 text-center max-md:px-6">
               {article[currentIndex]}
             </p>
           </h2>

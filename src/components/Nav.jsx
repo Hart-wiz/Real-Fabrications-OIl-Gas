@@ -5,19 +5,10 @@ import { Link } from "react-router-dom";
 
 const navItems = [
   { name: "Home", path: "/" },
-  {
-    name: "Our Companies ▼",
-    dropdown: [
-      { name: "GWUS GROUP", path: "/" },
-      { name: "Cobel oil & Gas ltd", path: "/cobel" },
-      { name: "GwusCobel ltd", path: "/gwuscobel" },
-      { name: "GwusQatar ltd", path: "/gwusqatar" },
-      { name: "Gwus Trading & Contracting", path: "/gwustrading" },
-    ],
-  },
-  { name: "About", path: "/about" },
-  { name: "Services", path: "#services" },
-  { name: "Contact", path: "/contact" },
+
+  { name: "About Us", path: "/about" },
+  { name: "Our Services", path: "#services" },
+  { name: "Contact Us", path: "/contact" },
 ];
 
 const Nav = ({ companyName, className }) => {
@@ -27,7 +18,7 @@ const Nav = ({ companyName, className }) => {
   return (
     <>
       {/* fixed Navigation Header */}
-      <div className="fixed w-screen top-0 z-50 bg-white/70 backdrop-blur-sm h-20 max-md:h-25 max-md:px-3 px-30 flex justify-between items-center shadow-sm">
+      <div className="fixed w-screen top-0 z-50 bg-white backdrop-blur-sm h-20 max-md:h-25 max-md:px-3 px-30 flex justify-between items-center shadow-sm">
         <div className="flex items-center text-black gap-3">
           <img
             src={logo}

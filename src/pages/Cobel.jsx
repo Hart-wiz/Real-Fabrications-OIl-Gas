@@ -59,11 +59,11 @@ const Cobel = () => {
         <ImageSlider images={images} article={articles} />
       </section>
       <div className="w-full bg-orange-700 text-white py-9">
-        <h2 className="text-center text-5xl py-16">WELCOME</h2>
-        <p className="px-40 text-justify">
+        <h2 className="text-center text-5xl py-16 max-md:py-8">WELCOME</h2>
+        <p className="px-40 text-justify max-md:text-sm max-md:px-3">
           Real Fabrications Oil & Gas Services has been a trusted name in
           Nigeria’s oil and gas industry since 2008, delivering high-quality
-          fabrication and construction services for major EPC projects. With a
+          fabrication and construction services for major EPIC projects. With a
           focus on safety, quality, and environmental responsibility, we support
           both onshore and offshore operations with a skilled workforce and
           advanced welding techniques. Our services include offshore and onshore

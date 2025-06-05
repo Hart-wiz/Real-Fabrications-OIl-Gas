@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import slide4 from "../assets/slide4.jpg";
-import offshore from "../assets/offshore.jpg";
+import offshore from "../assets/offshore.png";
 import CobelProjectCard from "../components/CobelProjectCard";
 
 const CobelConstruction = () => {
@@ -28,7 +28,7 @@ const CobelConstruction = () => {
           >
             ⇦back
           </a>
-          COBEL FACILITY CONSTRUCTION
+          FABRICATIONS & CONSTRUCTION
         </h1>
 
         <section className="flex gap-1 m-9 flex-col max-md:m-0">

@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import slide4 from "../assets/slide4.jpg";
 import pipeline from "../assets/pipeline.webp";
-import offshore from "../assets/offshore.jpg";
+import offshore from "../assets/offshore.png";
 import CobelProjectCard from "../components/CobelProjectCard";
 import green3 from "../assets/green3.jpg";
 
@@ -14,7 +14,7 @@ const CobelProject = () => {
       title: "Offshore and Onshore Projects",
       progress: 40,
       article:
-        " COBEL Oil & Gas is well established multi-disciplined Onshore and Offshore EPIC contracting company that has delivered EPIC projects. COBEL Oil & Gas have a capable team of experienced Project Management personnel and Construction Management personnel overseeing Engineering, Procurement, Construction and Commissioning of Projects. Our In-house capabilities cater for Majority of Project activities and we aim to provide one-stop-shop services to our clients. Offshore works include works such as boat landings, Electrical & Instrumentation upgrades, Brownfield Hook up on platforms and associated deck extensions and MOC works undertaken by clients for Process and production improvements. Onshore works include works such as Electrical & Instrument upgrades, Process Plant upgrades includes Vessels, equipment, piping and structures, associated civil works for plant upgrades, Construction of buildings and commissioning works in all disciplines. ",
+        " We  provides Offshore and Onshore construction services to major contractors and IOC's from the fabrication of: • Jackets • Flare booms • Helidecks • Riser protectors for FPSO's • Structural decks. Living quarters To the pre fabrication of: • Piping spools • Structural supports for onshore development • Pig launchers ",
     },
     {
       image: pipeline,
