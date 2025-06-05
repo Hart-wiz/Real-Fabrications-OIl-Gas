@@ -12,7 +12,7 @@ const Engineering = () => {
       title: "Engineering and Design Services",
       progress: 95,
       article:
-        " house engineering department supports new projects as well Rig upgrades and refurbishment work. We utilize the latest available software to analyze data, guaranteeing accurate results and providing clients with necessary computation and certifications according to API requirements. We design and analyze our systems through all stages of projects from concept to delivery and have in-house capabilityfor conceptual studies, basic designs and detailed design.Our engineers work with the Supply Chain Management, Operations and Installations to ensure that the hardware wesupply meet all design requirements and fully satisfies our clients.",
+        " House engineering department supports new projects as well Rig upgrades and refurbishment work. We utilize the latest available software to analyze data, guaranteeing accurate results and providing clients with necessary computation and certifications according to API requirements. We design and analyze our systems through all stages of projects from concept to delivery and have in-house capabilityfor conceptual studies, basic designs and detailed design.Our engineers work with the Supply Chain Management, Operations and Installations to ensure that the hardware wesupply meet all design requirements and fully satisfies our clients.",
     },
   ];
 

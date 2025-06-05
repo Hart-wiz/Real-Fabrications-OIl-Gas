@@ -22,9 +22,9 @@ import Footer from "../components/Footer";
 const Cobel = () => {
   const images = [slide3, slide4, slide5];
   const articles = [
-    " Real Fabrications Oil & Gas Services has been a trusted name in Nigeria’s oil and gas industry since 2008, delivering high-quality fabrication and construction services for major EPC projects.",
+    " Real Fabrications Oil & Gas Services has been a trusted name in Nigeria’s oil and gas industry since 1998, delivering high-quality fabrication and construction services for major EPC projects.",
     "Real Fabrication Oil & Gas ensures that it delivers world class service in an ethically acceptable manner with adherence to the highest safety standards and sensitivity to our environment. ",
-    "Real Fabrications Oil & Gas Services has been delivering reliable fabrication and construction solutions to Nigeria’s oil and gas industry since 2008.",
+    "Real Fabrications Oil & Gas Services has been delivering reliable fabrication and construction solutions to Nigeria’s oil and gas industry since 1998.",
   ];
 
   const cobelserve = [
@@ -80,7 +80,7 @@ const Cobel = () => {
         <h2 className="text-center text-5xl py-16 max-md:py-8">WELCOME</h2>
         <p className="px-40 text-justify max-md:text-sm max-md:px-3">
           Real Fabrications Oil & Gas Services has been a trusted name in
-          Nigeria’s oil and gas industry since 2008, delivering high-quality
+          Nigeria’s oil and gas industry since 1998, delivering high-quality
           fabrication and construction services for major EPIC projects. With a
           focus on safety, quality, and environmental responsibility, we support
           both onshore and offshore operations with a skilled workforce and

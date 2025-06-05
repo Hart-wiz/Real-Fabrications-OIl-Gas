@@ -28,7 +28,7 @@ const OtherNav = ({ companyName, className }) => {
 
           <h2 className="font-extrabold text-xl max-md:text-sm text-orange-700 text-left">
             REAL FABRICATIONS
-            <p className={className}>{companyName}</p>
+            <p className={className}>OIL & GAS</p>
           </h2>
         </div>
 

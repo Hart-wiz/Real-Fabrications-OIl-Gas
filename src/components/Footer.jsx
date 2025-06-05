@@ -2,12 +2,14 @@ import React from "react";
 import x from "../assets/x.png";
 import fb from "../assets/facebook.png";
 import call from "../assets/call.webp";
+import poster from "../assets/realfabposter.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
-      <section className="footer p-9 footer-text flex gap-19 text-blue-gray-800 max-md:flex-col max-md:gap-5 ">
-        <div>
+      <section className="footer p-6 footer-text flex gap-19 max-md:flex-col max-md:gap-5 ">
+        <div className="">
           <h2>WHY CHOOSE US</h2>
           <p>
             At REAL FABRICATIONS Oil & Gas, every member of our team is
@@ -15,24 +17,16 @@ const Footer = () => {
             day.
           </p>
         </div>
-        <div>
-          <h2>International Address:</h2>
+
+        <div className="">
+          <h2>Location Address:</h2>
           <p>
-            Building N0: 41, Street 400, Zone 56, Salwa Road, Doha, Qatar. Phone
-            numbers : +97455925866 +97477426368
-          </p>
-          <p></p>
-        </div>
-        <div>
-          <h2>Nigerian Address: </h2>
-          <p>
-            15 Trinity College Road, Umuizu Afara, off Uchenna Bus stop, Ubakala
-            Road, Umuahia, Abia State, Nigeria.
+            25 Eifans Road Off 188 Faulks Road, Aba, Abia State, Nigeria.
             <br />
-            Phone number: +2347020514858, +2348129522650, +2349065910188,
+            Phone number: +2347020514858,
           </p>
         </div>
-        <div>
+        <div className="">
           <h2>CONNECT WITH US</h2>
           <ul>
             <li>contact@realfabrications.com</li>
@@ -41,17 +35,17 @@ const Footer = () => {
             <li>
               <div>
                 <h2>FOLLOW US</h2>
-                <ul className="flex gap-3 pt-3">
+                <ul className="flex flex-row gap-3 pt-3">
                   {/* <li className="w-9 bg-white rounded-xl">
                     <a
-                      href="https://wa.me/2348029971941
-"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    href="https://wa.me/2348029971941
+                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
                     >
-                      <img src={whatsapp} alt="" className="rounded-xl" />
+                    <img src={whatsapp} alt="" className="rounded-xl" />
                     </a>
-                  </li> */}
+                    </li> */}
                   <li className="w-9 bg-white rounded-xl">
                     <a
                       href="tel:+2347020514858"
@@ -76,10 +70,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <div className="max-md:hidden ">
+          <img src={poster} alt="" />
+        </div>
       </section>
       <section className=" text-blue-950 px-9 py-4">
-        Real Fabrications Oil & Gas © All Rights Reserved | Powered By :
-        Weconetdata
+        © {currentYear} Real Fabrications Oil & Gas. All rights reserved. |
+        Powered by Weconet tec
       </section>
     </div>
   );

@@ -8,7 +8,7 @@ import OtherNav from "../components/OtherNav";
 const Contact = () => {
   return (
     <div>
-      <OtherNav companyName="OIL & GAS" />
+      <OtherNav className="text-sm text-orange-700" />
       <main className="p-9 pt-30 text-black flex gap-6  max-md:items-center justify-center flex-row-reverse max-md:flex-col-reverse">
         <section>
           <h1 className="font-bold text-xl p-3">Find US Here </h1>

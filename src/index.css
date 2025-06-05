@@ -40,10 +40,10 @@ li {
   color: white;
 }
 .footer {
-  background-color: #242424;
+  background-color: rgba(1, 1, 61, 0.884);
 }
 .footer-text {
-  color: rgba(128, 128, 128, 0.986);
+  color: rgba(255, 255, 255, 0.589);
 }
 .footer-text h2 {
   color: white;

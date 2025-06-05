@@ -27,8 +27,8 @@ const Nav = ({ companyName, className }) => {
           />
 
           <h2 className="font-extrabold text-xl max-md:text-sm text-orange-700 text-left">
-            REAL FABRICATION
-            <p className={className}>{companyName}</p>
+            REAL FABRICATIONS
+            <p className={className}>OIL & GAS</p>
           </h2>
         </div>
 
