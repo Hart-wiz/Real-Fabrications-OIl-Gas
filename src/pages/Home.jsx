@@ -56,17 +56,17 @@ const Cobel = () => {
     {
       image: marine,
       title: "Marine & Offshore Logistics ",
-      link: "/hse",
+      link: "/logistics",
     },
     {
       image: staffing,
       title: " Manpower Provision ",
-      link: "/hse",
+      link: "/manpower",
     },
     {
       image: hse,
       title: "Trading in Oilfield Products & HSE",
-      link: "/hse",
+      link: "/tradingproduct",
     },
   ];
 

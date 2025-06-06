@@ -13,6 +13,9 @@ import CobelHse from "./pages/CobelHse.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Engineering from "./pages/Engineering.jsx";
+import MarineLogistics from "./pages/MarineLogistics.jsx";
+import ManpowerProvision from "./pages/ManpowerProvision.jsx";
+import TradingProduct from "./pages/TradingProduct.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,16 +33,28 @@ const router = createBrowserRouter([
     element: <Engineering />,
   },
   {
+    path: "/construction",
+    element: <Construction />,
+  },
+  {
+    path: "/logistics",
+    element: <MarineLogistics />,
+  },
+  {
+    path: "/manpower",
+    element: <ManpowerProvision />,
+  },
+  {
+    path: "/tradingproduct",
+    element: <TradingProduct />,
+  },
+  {
     path: "/project",
     element: <CobelProject />,
   },
   {
     path: "/calloff",
     element: <CobelCallOff />,
-  },
-  {
-    path: "/construction",
-    element: <Construction />,
   },
   {
     path: "/shutdown",
