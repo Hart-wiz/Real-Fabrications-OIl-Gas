@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import OtherNav from "../components/OtherNav";
-import banner from "../assets/oil-trade.png";
+import banner from "../assets/oil-trade.webp";
 
 const TradingProduct = () => {
   return (

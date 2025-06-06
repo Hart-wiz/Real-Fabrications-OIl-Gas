@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import OtherNav from "../components/OtherNav";
-import banner from "../assets/manpower-banner.png";
+import banner from "../assets/manpower-banner.webp";
 
 const ManpowerProvision = () => {
   return (
