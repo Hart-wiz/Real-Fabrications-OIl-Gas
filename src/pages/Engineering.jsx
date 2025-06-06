@@ -29,15 +29,13 @@ const Engineering = () => {
     <div>
       <OtherNav className="text-sm text-orange-700" />
       <main>
-        {/* <img src={slide4} alt="" className="h-90 w-screen" /> */}
-
         <section className="flex gap-1 m-9 flex-col max-md:m-0 px-20 pb-30 max-md:px-4">
           {content.map((item, index) => (
             <div key={index} className="bg-white shadow-md p-6 rounded">
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-[400px] object-cover mb-4"
+                className="w-full h-90 object-cover mb-4 max-md:h-70"
               />
               <h1 className="text-black text-center font-mono text-3xl py-6 flex flex-row justify-center">
                 Engineering and Design

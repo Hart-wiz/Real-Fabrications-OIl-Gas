@@ -11,7 +11,11 @@ const TradingProduct = () => {
         className="text-sm text-orange-700"
       />
       <main className="bg-white py-12 px-6 md:px-20 text-gray-800">
-        <img src={banner} alt="banner oilfield " className=" h-90 w-full" />
+        <img
+          src={banner}
+          alt="banner oilfield "
+          className=" h-90 w-full max-md:h-70"
+        />
         <div className="max-w-5xl mx-auto space-y-10">
           <h1 className="text-4xl font-bold text-center text-blue-900">
             Trading in Oilfield Products & HSE Management
