@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import OtherNav from "../components/OtherNav";
 import banner from "../assets/manpower-banner.webp";
+import check from "../assets/check.svg";
 
 const ManpowerProvision = () => {
   return (
@@ -62,18 +63,33 @@ const ManpowerProvision = () => {
           </div>
 
           {/* Why Choose Us */}
-          <section className="bg-white text-justify py-6">
+          <section className="bg-white  py-6">
             <h2 className="text-2xl font-semibold text-blue-800 mb-4">
-              ✅ Why Choose Our Manpower Services?
+              Why Choose Our Manpower Services?
             </h2>
-            <ul className="list-disc list-inside space-y-3 text-gray-700 max-w-2xl ">
-              <li>
-                Trained to meet international safety and performance standards
+            <ul className="list-disc list-inside space-y-3 text-gray-700 max-w-2xl text-justify">
+              <li className="flex items-center">
+                <img src={check} alt="" />
+                <p>
+                  Trained to meet international safety and performance standards
+                </p>
               </li>
-              <li>Fully vetted and verified before deployment</li>
-              <li>Available for short-term and long-term contracts</li>
-              <li>Deployable offshore or onshore, locally or regionally</li>
-              <li>Backed by 24/7 administrative and logistics support</li>
+              <li className="flex items-center">
+                <img src={check} alt="" />
+                Fully vetted and verified before deployment
+              </li>
+              <li className="flex items-center">
+                <img src={check} alt="" />
+                Available for short-term and long-term contracts
+              </li>
+              <li className="flex items-center">
+                <img src={check} alt="" />
+                Deployable offshore or onshore, locally or regionally
+              </li>
+              <li className="flex items-center">
+                <img src={check} alt="" />
+                Backed by 24/7 administrative and logistics support
+              </li>
             </ul>
           </section>
         </div>

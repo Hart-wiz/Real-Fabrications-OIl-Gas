@@ -76,7 +76,7 @@ const Footer = () => {
       </section>
       <section className=" text-blue-950 px-9 py-4">
         © {currentYear} Real Fabrications Oil & Gas. All rights reserved. |
-        Powered by Weconet tec
+        Powered by <i>Weconetdata </i>
       </section>
     </div>
   );
