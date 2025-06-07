@@ -17,13 +17,13 @@ const About = () => {
               alt="poster"
               className="w-[400px] max-md:w-[300px]"
             />
-            <h2 className="text-xl">CRN: 8538117</h2>
-            <p className="font-bold text-justify">
+            <h2 className="text-xl ">CRN: 8538117</h2>
+            <p className="font-semibold text-justify">
               Real Fabrications Oil & Gas Limited is a trusted Nigerian company
               delivering high-quality services across the oil and gas value
-              chain. Since 1998, we have supported major onshore and offshore
-              projects with expertise in engineering, fabrication, construction,
-              and logistics.
+              chain. <b className="italic"> Since 1998</b>, we have supported
+              major onshore and offshore projects with expertise in engineering,
+              fabrication, construction, and logistics.
             </p>
             <p className="text-justify">
               <b className="text-blue-900 text-justify">
@@ -100,9 +100,9 @@ const About = () => {
               Environmental (HSE) performance across all our operations.
             </li>
           </ul>
-          <div className="pt-9 italic font-mono text-lg text-justify">
-            Our operations are driven by a commitment to safety, quality, and
-            environmental responsibility.
+          <div className="pt-9 italic font-mono text-lg text-center">
+            " Our operations are driven by a commitment to safety, quality, and
+            environmental responsibility. "
           </div>
         </section>
 

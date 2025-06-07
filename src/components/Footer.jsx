@@ -31,7 +31,7 @@ const Footer = () => {
           <ul>
             <li>contact@realfabrications.com</li>
 
-            <li>Web:www.realfab.com</li>
+            <li>Web:www.realfabrications.com</li>
             <li>
               <div>
                 <h2>FOLLOW US</h2>
