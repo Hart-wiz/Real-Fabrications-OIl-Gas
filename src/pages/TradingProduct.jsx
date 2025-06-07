@@ -53,7 +53,7 @@ const TradingProduct = () => {
           </section>
 
           {/* HSE Section */}
-          <section className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          {/* <section className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-semibold text-blue-800 mb-4">
               🛡️ HSE Management & Commitment
             </h2>
@@ -72,7 +72,7 @@ const TradingProduct = () => {
               <li>Deployment of PPE and advanced protective systems</li>
               <li>Proactive risk identification and mitigation</li>
             </ul>
-          </section>
+          </section> */}
         </div>
       </main>
       <Footer />

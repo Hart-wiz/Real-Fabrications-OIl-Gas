@@ -13,6 +13,7 @@ import construction from "../assets/construction.webp";
 import shutdown from "../assets/shutdown.png";
 import calloff from "../assets/calloff.webp";
 import hse from "../assets/hse.webp";
+import safety from "../assets/safety-equip.webp";
 import marine from "../assets/marine.webp";
 import engineer from "../assets/engineer-icon.webp";
 import staffing from "../assets/man-power.webp";
@@ -64,6 +65,11 @@ const Cobel = () => {
       link: "/manpower",
     },
     {
+      image: safety,
+      title: "Trading in Safety Equipments",
+      link: "/tradingproduct",
+    },
+    {
       image: hse,
       title: "Trading in Oilfield Products & HSE",
       link: "/tradingproduct",
@@ -93,7 +99,7 @@ const Cobel = () => {
       <section className="my-10" id="services">
         <section className=" ">
           <h2 className="text-4xl text-center font-thin p-9">OUR SERVICES</h2>
-          <div className="flex gap-9 justify-center flex-wrap flex-row ">
+          <div className="flex gap-9 justify-center flex-wrap flex-row  ">
             {cobelserve.map((card) => (
               <Link to={card.link}>
                 <ImageCard cardImage={card.image} title={card.title} />

@@ -23,7 +23,7 @@ const Footer = () => {
           <p>
             25 Eifans Road Off 188 Faulks Road, Aba, Abia State, Nigeria.
             <br />
-            Phone number: +2347020514858,
+            Phone number: +2348025778978,
           </p>
         </div>
         <div className="">
@@ -31,7 +31,7 @@ const Footer = () => {
           <ul>
             <li>contact@realfabrications.com</li>
 
-            <li>Web:www.gwusgroup.com</li>
+            <li>Web:www.realfab.com</li>
             <li>
               <div>
                 <h2>FOLLOW US</h2>
