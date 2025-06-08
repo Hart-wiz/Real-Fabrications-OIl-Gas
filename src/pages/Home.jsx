@@ -67,7 +67,7 @@ const Cobel = () => {
     {
       image: safety,
       title: "Trading in Safety Equipments",
-      link: "/tradingproduct",
+      link: "/safetyequipments",
     },
     {
       image: hse,

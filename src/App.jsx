@@ -4,11 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Import your pages
 import Thankyou from "./pages/Thankyou.jsx";
 import Home from "./pages/Home.jsx";
-import CobelProject from "./pages/CobelProject.jsx";
-import CobelCallOff from "./pages/CobelCallOff.jsx";
+
 import Construction from "./pages/Construction.jsx";
-import CobelShutdown from "./pages/CobelShutdown.jsx";
-import CobelHse from "./pages/CobelHse.jsx";
 
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -16,6 +13,7 @@ import Engineering from "./pages/Engineering.jsx";
 import MarineLogistics from "./pages/MarineLogistics.jsx";
 import ManpowerProvision from "./pages/ManpowerProvision.jsx";
 import TradingProduct from "./pages/TradingProduct.jsx";
+import SafetyEquip from "./pages/SafetyEquip.jsx";
 
 const router = createBrowserRouter([
   {
@@ -48,21 +46,10 @@ const router = createBrowserRouter([
     path: "/tradingproduct",
     element: <TradingProduct />,
   },
+
   {
-    path: "/project",
-    element: <CobelProject />,
-  },
-  {
-    path: "/calloff",
-    element: <CobelCallOff />,
-  },
-  {
-    path: "/shutdown",
-    element: <CobelShutdown />,
-  },
-  {
-    path: "/hse",
-    element: <CobelHse />,
+    path: "/safetyequipments",
+    element: <SafetyEquip />,
   },
   {
     path: "/about",

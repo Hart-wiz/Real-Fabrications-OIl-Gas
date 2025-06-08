@@ -18,12 +18,14 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="">
-          <h2>Location Address:</h2>
+        <div className=" max-md:w-auto md:w-[700px] ">
+          <h2>Location Address 1:</h2>
+          <p>25 Eifans Road Off 188 Faulks Road, Aba, Abia State, Nigeria.</p>
           <p>
-            25 Eifans Road Off 188 Faulks Road, Aba, Abia State, Nigeria.
-            <br />
-            Phone number: +2348025778978,
+            <h2>Location Address 2:</h2>
+            <p>
+              14 Streamview Estate., Atali, PortHarcourt, Rivers State, Nigeria.
+            </p>
           </p>
         </div>
         <div className="">
@@ -34,36 +36,20 @@ const Footer = () => {
             <li>Web:www.realfabrications.com</li>
             <li>
               <div>
-                <h2>FOLLOW US</h2>
+                <h2>CALL US</h2>
                 <ul className="flex flex-row gap-3 pt-3">
-                  {/* <li className="w-9 bg-white rounded-xl">
+                  <li className="w-9 h-9 bg-white rounded-xl">
                     <a
-                    href="https://wa.me/2348029971941
-                    "
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <img src={whatsapp} alt="" className="rounded-xl" />
-                    </a>
-                    </li> */}
-                  <li className="w-9 bg-white rounded-xl">
-                    <a
-                      href="tel:+2347020514858"
+                      href="tel:+2347020957716"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img src={call} alt="" />
                     </a>
                   </li>
-                  <li className="w-9 bg-white rounded-xl">
-                    <a>
-                      <img src={fb} alt="" />
-                    </a>
-                  </li>
-                  <li className="w-9 bg-white rounded-xl">
-                    <a>
-                      <img src={x} alt="" />
-                    </a>
+                  <li>
+                    +2347020957716 <br />
+                    +2347020289507
                   </li>
                 </ul>
               </div>
