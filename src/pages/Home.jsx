@@ -8,16 +8,12 @@ import slide5 from "../assets/cobol5.webp";
 import ServiceCard from "../components/ServiceCard";
 import { cobelCards } from "../assets/assets";
 import ImageCard from "../components/ImageCard";
-import project from "../assets/epic-projects.webp";
 import construction from "../assets/construction.webp";
-import shutdown from "../assets/shutdown.png";
-import calloff from "../assets/calloff.webp";
 import hse from "../assets/hse.webp";
 import safety from "../assets/safety-equip.webp";
 import marine from "../assets/marine.webp";
 import engineer from "../assets/engineer-icon.webp";
 import staffing from "../assets/man-power.webp";
-
 import Footer from "../components/Footer";
 
 const Cobel = () => {
@@ -29,16 +25,6 @@ const Cobel = () => {
   ];
 
   const cobelserve = [
-    // {
-    //   image: project,
-    //   title: "Epic Projects",
-    //   link: "/project",
-    // },
-    // {
-    //   image: calloff,
-    //   title: "Call Off Services",
-    //   link: "/calloff",
-    // },
     {
       image: engineer,
       title: "Engineering & Design ",
@@ -49,11 +35,7 @@ const Cobel = () => {
       title: " Fabrication & Construction",
       link: "/construction",
     },
-    // {
-    //   image: shutdown,
-    //   title: "shutdown Projects",
-    //   link: "/shutdown",
-    // },
+
     {
       image: marine,
       title: "Marine & Offshore Logistics ",

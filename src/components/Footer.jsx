@@ -1,6 +1,5 @@
 import React from "react";
-import x from "../assets/x.png";
-import fb from "../assets/facebook.png";
+
 import call from "../assets/call.webp";
 import poster from "../assets/realfabposter.png";
 
@@ -31,7 +30,7 @@ const Footer = () => {
         <div className="">
           <h2>CONNECT WITH US</h2>
           <ul>
-            <li>contact@realfabrications.com</li>
+            <li>info@realfabrications.com</li>
 
             <li>Web:www.realfabrications.com</li>
             <li>
