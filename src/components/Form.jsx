@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div>
       <form
-        action="https://formsubmit.co/contact@gwusgroup.com"
+        action="https://formsubmit.co/info@realfabrications.com"
         method="POST"
         className=" flex flex-col gap-3  "
       >
@@ -39,7 +39,8 @@ const Form = () => {
           type="hidden"
           name="_next"
           value={
-            "http://gwusgroup.com/thankyou" || "http://localhost:5173/thankyou"
+            "http://realfabrications.com/thankyou" ||
+            "http://localhost:5173/thankyou"
           }
         />
       </form>
